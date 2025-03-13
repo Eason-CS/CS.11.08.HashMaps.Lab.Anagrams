@@ -79,14 +79,4 @@ public class AnagramSolver {
     }
 
     public static void main(String[] args) {
-        String filename = "words.txt"; // Replace with your file path
-        HashMap<String, ArrayList<String>> anagramMap = anagrams(filename);
-
-        System.out.println("All anagram groups:");
-        printKeyValuePairs(anagramMap);
-
-        ArrayList<String> largestAnagramGroup = mostFrequentAnagram(anagramMap);
-        System.out.println("\nLargest anagram group:");
-        System.out.println(largestAnagramGroup);
-    }
 }
